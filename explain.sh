@@ -1,0 +1,1 @@
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=25641 \main.py -cfg ./configs/explain_config.yaml --output /mnt/hdd2/dengruikang/output_0 --pretrained /mnt/hdd2/dengruikang/ViT-L-14.pt --resume /mnt/hdd2/dengruikang/output_asdtd_0/ckpt_epoch_29.pth
